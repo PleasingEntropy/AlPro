@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="a9naFC_Xo9HAm5M65Bco">
+    <mxGraphModel dx="774" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Mulai" vertex="1">
+          <mxGeometry height="60" width="100" x="315" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Berhenti" vertex="1">
+          <mxGeometry height="60" width="100" x="315" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="480" as="sourcePoint" />
+            <mxPoint x="320" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Daftar barang&amp;nbsp;&lt;div&gt;1. Beras&lt;/div&gt;&lt;div&gt;2. Ayam&lt;/div&gt;&lt;div&gt;3. Kacang&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="325" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-19" edge="1" parent="1" source="bNBw1mRFjxaPfBQ_sTGW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="bNBw1mRFjxaPfBQ_sTGW-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-20" edge="1" parent="1" source="bNBw1mRFjxaPfBQ_sTGW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="bNBw1mRFjxaPfBQ_sTGW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Masukkan nama barang" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-15" edge="1" parent="1" source="bNBw1mRFjxaPfBQ_sTGW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="bNBw1mRFjxaPfBQ_sTGW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-23" edge="1" parent="1" source="bNBw1mRFjxaPfBQ_sTGW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="bNBw1mRFjxaPfBQ_sTGW-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-24" connectable="0" parent="bNBw1mRFjxaPfBQ_sTGW-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Tidak" vertex="1">
+          <mxGeometry relative="1" x="-0.2267" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Apakah barang tersedia?" vertex="1">
+          <mxGeometry height="80" width="80" x="325" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-16" edge="1" parent="1" source="bNBw1mRFjxaPfBQ_sTGW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="bNBw1mRFjxaPfBQ_sTGW-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="780" />
+            </Array>
+            <mxPoint x="530" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Jika tidak, munculkan &quot;Barang tidak tersedia&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Jika tersedia, munculkan &quot;Barang tersedia&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-22" edge="1" parent="1" source="bNBw1mRFjxaPfBQ_sTGW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="bNBw1mRFjxaPfBQ_sTGW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBw1mRFjxaPfBQ_sTGW-25" connectable="0" parent="bNBw1mRFjxaPfBQ_sTGW-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Ya" vertex="1">
+          <mxGeometry relative="1" x="-0.7667" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
